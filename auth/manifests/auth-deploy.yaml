@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: sweasytech/auth
+          image: stevohuncho/auth
           ports:
             - containerPort: 5001
           envFrom:
